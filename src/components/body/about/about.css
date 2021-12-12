@@ -1,0 +1,51 @@
+.about {
+    padding-bottom: 48px;
+    background-color: #FBFBFB;
+}
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info {
+    font-size: 24px;
+}
+
+.about-subinfo {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.info-name {
+    color: #90CAF9;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.picture {
+    height: 420px;
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .about-info {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .info-name {
+        font-size: 26px;
+    }
+
+    .picture {
+        height: 320px;
+    }
+}

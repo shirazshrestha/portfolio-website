@@ -1,0 +1,23 @@
+.education-card {
+    padding: 8px;
+    width: 80%;
+    margin-top: 16px;
+    display: flex;
+}
+
+.education-title {
+    font-weight: 700;
+}
+
+.education-info {
+}
+
+.education-dates {
+    color: gray;
+}
+
+@media only screen and (max-width: 720px){
+    .education-card {
+        width: 100%;
+    }
+}
