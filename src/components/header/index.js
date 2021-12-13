@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className='header'>
             <div className='logo'>
-                <a href='shiraz.dev'>
+                <a href='/'>
                     Shiraz Shrestha
                 </a>
             </div>
