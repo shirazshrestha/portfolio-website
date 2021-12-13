@@ -8,7 +8,7 @@ function ProjectCard({project}) {
                 <label className='project-title'>{project.title}</label>
                 <div className='project-links'>
                     {project.demo && (
-                        <a className='project-link' href={project.demo} target='_blank'>
+                        <a className='project-link' href={project.demo} target='_blank' rel="noreferrer">
                             <div className='link-button'>
                                 <i className="fas fa-globe"></i>Demo
                             </div>
@@ -16,7 +16,7 @@ function ProjectCard({project}) {
                     )}
 
                     {project.github && (
-                        <a className='project-link' href={project.github} target='_blank'>
+                        <a className='project-link' href={project.github} target='_blank' rel='noreferrer'>
                             <div className='link-button'>
                                 <i className="devicon-github-original"></i>GitHub
                             </div>
@@ -34,7 +34,7 @@ function ProjectCard({project}) {
                     })}
                 </div>
             </div>
-            <img src={project.image} className='project-photo'/>
+            <img src={project.image} className='project-photo' alt='project image'/>
         </div>
     )
 }
