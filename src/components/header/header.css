@@ -5,6 +5,7 @@
     padding: 12px;
     position: relative;
     align-items: center;
+    background: #90CAF9;
 }
 
 .menu {
@@ -48,5 +49,14 @@
 
     .logo {
         font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
 }
