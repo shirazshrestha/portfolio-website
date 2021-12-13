@@ -1,5 +1,4 @@
 .about {
-    padding-bottom: 48px;
     background-color: #FBFBFB;
 }
 
@@ -47,5 +46,11 @@
 
     .picture {
         height: 320px;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .about{
+        padding-bottom: 100px;
     }
 }
